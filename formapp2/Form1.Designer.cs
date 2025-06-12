@@ -52,12 +52,13 @@
             // 
             // btnAdd
             // 
+            this.btnAdd.BackColor = System.Drawing.Color.Red;
             this.btnAdd.Location = new System.Drawing.Point(36, 150);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(81, 25);
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "add";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnEdit
